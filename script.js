@@ -41,7 +41,7 @@ music.addEventListener('ended', cambiarCancion);
 
 // Manejador del botón "Sí"
 document.getElementById('siBtn').addEventListener('click', function() {
-    alert('¡Sabía que dirías que sí! 💖');
+    alert('¡Sabía que dirías que sí! 💖, Te amo Phaython');
 });
 
 // Mover el botón "No" aleatoriamente cuando se pase el mouse sobre él
