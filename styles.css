@@ -81,10 +81,22 @@ button {
     transform: scale(0.9);
 }
 
+.song-controls {
+    margin-top: 40px; /* Aumenta la distancia desde la parte superior */
+    text-align: center; /* Centra el botón */
+}
+
 /* Botón "Siguiente canción" */
 #btnSiguiente {
     background-color: #4CAF50;
     color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block; /* Permite centrarlo con text-align */
 }
 
 #btnSiguiente:hover {
